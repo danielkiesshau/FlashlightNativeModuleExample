@@ -47,6 +47,7 @@ const App = () => {
             onPress={() => {
               Torch.toggleTorch(true);
             }}
+            style={styles.btnOn}
           />
           <Button
             title="OFF"
@@ -65,6 +66,9 @@ const styles = StyleSheet.create({
     height: '100%',
     justifyContent: 'center',
     alignItems: 'center',
+  },
+  btnOn: {
+    marginBottom: 15,
   },
 });
 
